@@ -328,7 +328,7 @@ if (typeof Object.create !== "function") {
                 width = base.$owlItems.length * base.itemWidth;
 
             base.$owlWrapper.css({
-                "width": width * 2,
+                "width": width,
                 "left": 0
             });
             base.appendItemsSizes();
